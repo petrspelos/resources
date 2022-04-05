@@ -15,3 +15,15 @@ To download my .editorconfig file, you can run the following command in PowerShe
 ```ps1
 Invoke-WebRequest -Uri https://raw.githubusercontent.com/petrspelos/resources/main/editorconfig/.editorconfig -OutFile ./.editorconfig
 ```
+
+## Windows Terminal Settings
+
+My settings for the Windows Terminal. You can find the config and some helper scripts [here](/windows-terminal/).
+
+### Quick Apply
+
+To quickly apply the terminal style run the following command in PowerShell:
+
+```ps1
+iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/petrspelos/resources/main/windows-terminal/quick-apply.ps1'))
+```
