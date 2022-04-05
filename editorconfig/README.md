@@ -4,6 +4,14 @@
 
 [.editorconfig](https://editorconfig.org/) is a configuration file for various IDEs enforcing a certain set of style rules. Additionally, mine contains specific rules for C#.
 
+## Download
+
+To download my .editorconfig file, you can run the following command in PowerShell:
+
+```ps1
+Invoke-WebRequest -Uri https://raw.githubusercontent.com/petrspelos/resources/main/editorconfig/.editorconfig -OutFile ./.editorconfig
+```
+
 ## Rules Explained
 
 - All files use spaces for indentation
