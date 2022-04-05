@@ -1,2 +1,9 @@
-# resources
-Various configuration files and other resources
+# Resources
+
+_Various configuration files and other resources..._
+
+## .editorconfig
+
+[.editorconfig](https://editorconfig.org/) is a configuration file for various IDEs enforcing a certain set of style rules. Additionally, mine contains specific rules for C#.
+
+Description of my chosen standards and the config itself [can be found here](/editorconfig/README.md).
