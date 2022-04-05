@@ -25,5 +25,5 @@ My settings for the Windows Terminal. You can find the config and some helper sc
 To quickly apply the terminal style run the following command in PowerShell:
 
 ```ps1
-iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/petrspelos/resources/main/windows-terminal/quick-apply.ps1'))
+Invoke-WebRequest -Uri https://raw.githubusercontent.com/petrspelos/resources/main/windows-terminal/settings.json -OutFile "$env:LOCALAPPDATA\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json"
 ```
