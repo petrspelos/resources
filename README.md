@@ -37,3 +37,19 @@ To install the profile for your local user, run the following command in PowerSh
 ```ps1
 Invoke-WebRequest -Uri https://raw.githubusercontent.com/petrspelos/resources/main/powershell/Profile.ps1 -OutFile ( New-Item -Path "$Home\Documents\PowerShell\Profile.ps1" -Force )
 ```
+
+## Neovim configuration
+
+In order to configure neovim, you're going to want to setup both `init.vim` and `.vimrc` files
+
+- init.vim
+
+```ps1
+Invoke-WebRequest -Uri https://raw.githubusercontent.com/petrspelos/resources/main/vim/init.vim -OutFile ( New-Item -Path "$Home\AppData\Local\nvim\init.vim" -Force )
+```
+
+- .vimrc
+
+```ps1
+Invoke-WebRequest -Uri https://raw.githubusercontent.com/petrspelos/resources/main/vim/.vimrc -OutFile ( New-Item -Path "$Home\.vimrc" -Force )
+```

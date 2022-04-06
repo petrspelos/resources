@@ -22,5 +22,5 @@ Set-Alias -Name scripts-local -Value scripts-local-open
 function github-mail-copy { Write-Output 'petrspelos@users.noreply.github.com' | clip }
 Set-Alias -Name github-mail -Value github-mail-copy
 
-Set-Alias -Name vim -Value C:\Users\petr.sedlacek\Downloads\nvim-win64\Neovim\bin\nvim.exe
-Set-Alias -Name vimg -Value C:\Users\petr.sedlacek\Downloads\nvim-win64\Neovim\bin\nvim-qt.exe
+Set-Alias -Name vim -Value ~\Downloads\nvim-win64\Neovim\bin\nvim.exe
+Set-Alias -Name vimg -Value ~\Downloads\nvim-win64\Neovim\bin\nvim-qt.exe
