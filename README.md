@@ -27,3 +27,13 @@ To quickly apply the terminal style run the following command in PowerShell:
 ```ps1
 Invoke-WebRequest -Uri https://raw.githubusercontent.com/petrspelos/resources/main/windows-terminal/settings.json -OutFile "$env:LOCALAPPDATA\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json"
 ```
+
+## PowerShell Profile
+
+My PowerShell profile includes aliases and functions to use in a PS session.
+
+To install the profile for your local user, run the following command in PowerShell:
+
+```ps1
+Invoke-WebRequest -Uri https://raw.githubusercontent.com/petrspelos/resources/main/powershell/Profile.ps1 -OutFile "$Home\Documents\PowerShell\Profile.ps1"
+```
