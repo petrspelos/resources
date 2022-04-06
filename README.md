@@ -35,5 +35,5 @@ My PowerShell profile includes aliases and functions to use in a PS session.
 To install the profile for your local user, run the following command in PowerShell:
 
 ```ps1
-Invoke-WebRequest -Uri https://raw.githubusercontent.com/petrspelos/resources/main/powershell/Profile.ps1 -OutFile "$Home\Documents\PowerShell\Profile.ps1"
+Invoke-WebRequest -Uri https://raw.githubusercontent.com/petrspelos/resources/main/powershell/Profile.ps1 -OutFile ( New-Item -Path "$Home\Documents\PowerShell\Profile.ps1" -Force )
 ```
