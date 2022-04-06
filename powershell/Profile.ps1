@@ -11,7 +11,7 @@ function git-add { git add . }
 Set-Alias -Name ga -Value git-add
 
 function git-commit { git commit }
-Set-Alias -Name gcm -Value git-commit
+Set-Alias -Name gcmt -Value git-commit
 
 function scripts-open { code C:/scripts }
 Set-Alias -Name scripts -Value scripts-open
